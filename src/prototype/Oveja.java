@@ -14,6 +14,7 @@ public class Oveja {
     protected String nombre;
     protected String categoria;
     
+    
     public Oveja(String nombre)
     {
         this.nombre = nombre;

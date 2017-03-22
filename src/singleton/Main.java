@@ -11,4 +11,16 @@ package singleton;
  */
 public class Main {
     
+    public static void main(String[] args) {
+     
+        //Acceder a la instancia del objeto
+        Cuenta c1 = Cuenta.getInstance();
+        Cuenta c2 = Cuenta.getInstance();
+        
+        //Dar valor a c1
+        c1.setValor("Cuenta del usuario xxxx");
+        
+        //Imprimir el valor de la c2
+        System.out.println(c2.getValor());                
+    }   
 }
